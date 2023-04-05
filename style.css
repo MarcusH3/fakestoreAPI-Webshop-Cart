@@ -1,0 +1,108 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: lightgray;
+  }
+  
+  #cart-icon {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #cart-icon:before {
+    content: "Cart";
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+    color: white;
+    font-weight: bold;
+  }
+  
+  #cart-container {
+    background-color: lightgray;
+    padding: 20px;
+  }
+  
+  #cart-items {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #cart-items .product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  #cart-items .product img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  #logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #logo-container img {
+    margin-right: 10px;
+  }
+  
+  #cart-count {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+  }
+
+
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+  * {
+      box-sizing: border-box;
+    }
+  
+    body {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      color: #444;
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+  
+    
+    h1 {
+      font-size: 30px;
+      color: #333;
+      padding: 20px 0;
+    }
+    
+    h2 {
+      font-size: 22px;
+      color: #999;
+    }
+    
+    p {
+      font-size: 16px;
+      color: #666;
+      padding: 0;
+      margin: 0 0 20px 0;
+    }
